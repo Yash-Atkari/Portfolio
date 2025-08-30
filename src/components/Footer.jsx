@@ -2,30 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <>
-        <style>{`
-        footer {
-            background: rgba(15, 15, 30, 0.75);
-            backdrop-filter: blur(10px);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        footer a {
-            color: white;
-            transition: all 0.2s ease;
-            font-size: 1.2rem;
-        }
-
-        footer a:hover {
-            color: #b26be8;
-        }
-
-        footer p {
-            margin: 0;
-            font-weight: 500;
-        }
-        `}</style>
-        <footer className="px-4 py-2 text-white">
+        <footer className="footer px-4 py-2 text-white">
             <div className="">
                 <div className="row text-center text-md-start align-items-center gy-3">
                     {/* Logo + Name */}
@@ -58,6 +35,5 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
-        </>
     );
 }

@@ -9,7 +9,6 @@ export default function Navbar() {
         `nav-link ${isActive ? 'active' : 'text-white'}`;
 
     return (
-        <>
         <nav className="navbar navbar-expand-md px-4 py-2 sticky-top">
             <NavLink to="/" className="navbar-brand d-inline-block me-3" style={{ height: "50px", width: "45px" }}>
                 <img src="/portfolio_logo_bg.png" alt="Portfolio logo" className="h-100 w-100 img-fluid" />
@@ -38,6 +37,5 @@ export default function Navbar() {
                 </div>
             </div>
         </nav>
-        </>
     );
 }
