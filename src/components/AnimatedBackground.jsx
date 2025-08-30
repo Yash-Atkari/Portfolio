@@ -206,19 +206,33 @@ export default function AnimatedBackground() {
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      style={{
-        display: 'block',
-        background: 'black',
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        userSelect: 'none',
-        pointerEvents: 'none',
-        willChange: 'transform',
-        zIndex: -1,
-      }}
-    />
+    isMobile ? (
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'black',
+          zIndex: -1,
+        }}
+      />
+    ) : (
+      <canvas
+        ref={canvasRef}
+        style={{
+          display: 'block',
+          background: 'black',
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          userSelect: 'none',
+          pointerEvents: 'none',
+          willChange: 'transform',
+          zIndex: -1,
+        }}
+      />
+    )
   );
 }
