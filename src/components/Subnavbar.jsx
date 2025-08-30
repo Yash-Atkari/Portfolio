@@ -12,7 +12,7 @@ export default function Subnavbar() {
           className={`text-decoration-none py-1 px-2 rounded ${activeLink === "me" ? "active" : ""}`}
           aria-label="Me"
         >
-          <i className="fa-regular fa-user"></i>&nbsp;<span>Me</span>
+          <i className="fa-regular fa-user"></i><span> Me</span>
         </a>
 
         <a
@@ -21,7 +21,7 @@ export default function Subnavbar() {
           className={`text-decoration-none py-1 px-2 rounded ${activeLink === "skills" ? "active" : ""}`}
           aria-label="Skills"
         >
-          <i className="fa-regular fa-keyboard"></i>&nbsp;<span>Skills</span>
+          <i className="fa-regular fa-keyboard"></i><span> Skills</span>
         </a>
 
         <a
@@ -30,7 +30,7 @@ export default function Subnavbar() {
           className={`text-decoration-none py-1 px-2 rounded ${activeLink === "events" ? "active" : ""}`}
           aria-label="Hackathons and Events"
         >
-          <i className="fa-regular fa-calendar"></i>&nbsp;<span>Hackathons & Events</span>
+          <i className="fa-regular fa-calendar"></i><span> Hackathons & Events</span>
         </a>
 
         <a
@@ -39,7 +39,7 @@ export default function Subnavbar() {
           className={`text-decoration-none py-1 px-2 rounded ${activeLink === "certifications" ? "active" : ""}`}
           aria-label="Certifications"
         >
-          <i className="fa-solid fa-medal"></i>&nbsp;<span>Certifications</span>
+          <i className="fa-solid fa-medal"></i><span> Certifications</span>
         </a>
 
         <a
@@ -48,7 +48,7 @@ export default function Subnavbar() {
           className={`text-decoration-none py-1 px-2 rounded ${activeLink === "achievements" ? "active" : ""}`}
           aria-label="Achievements"
         >
-          <i className="fa-solid fa-trophy"></i>&nbsp;<span>Achievements</span>
+          <i className="fa-solid fa-trophy"></i><span> Achievements</span>
         </a>
       </div>
     </div>
