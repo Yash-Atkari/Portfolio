@@ -1,12 +1,47 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with **React** and **Vite**. This site showcases my projects, resume, skills, blogs, and social profiles — aimed at helping recruiters and collaborators connect with me easily. 
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View My Portfolio](https://your-portfolio-link.com)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React + Vite, Bootstrap
+- **Hosting**: Netlify
+- **Other Tools**: LottieFiles (for animations), EmailJS (for contact form)
+
+## Features
+
+- Responsive & modern UI
+- Projects showcase with live demo links
+- Downloadable Resume
+- Contact form with email integration
+- Blog section
+- Social media profile links (github, linkedin, email)
+- Codolio section (tracks my tech journey across different plaforms)
+
+## Screenshots
+
+<img width="1902" height="909" alt="image" src="https://github.com/user-attachments/assets/b388a985-38c2-4501-8baf-a270ad95f7fd" />
+
+<img width="1903" height="904" alt="image" src="https://github.com/user-attachments/assets/c1f291ee-6dde-46d6-9e36-7fafe4beafa5" />
+
+<img width="1900" height="908" alt="image" src="https://github.com/user-attachments/assets/212de3b3-c7ee-40d4-bfce-0fc4cacd98c2" />
+
+## About Me Section Includes
+
+- Name and short bio
+- Education & work history
+- Tech skills (Frontend, Backend, Tools)
+- Certifications / Achievements 
+
+## Contact
+
+Have any opportunities or collaboration ideas?
+
+- 📧 Email: [yashatkari7@gmail.com](yashatkari7@gmail.com)
+- 📱 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/yashatkari2005/)
+- 🌐 Portfolio: [My Portfolio](https://yashatkari.netlify.app/)
+
