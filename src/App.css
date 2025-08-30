@@ -235,3 +235,16 @@
   color: #17a2b8; /* Bootstrap info color */
 }
 
+/* HackathonAnimation Component CSS */
+
+.hackathon-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+}
+

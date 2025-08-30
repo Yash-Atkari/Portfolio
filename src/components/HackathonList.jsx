@@ -38,19 +38,19 @@ export default function HackathonList() {
 
     return (
         <div className="row px-3">
-            {
-                certificates.map((obj, idx) => (
-                    <HackathonCard
-                        key={idx}
-                        name={obj.name}
-                        organizer={obj.organizer}
-                        duration={obj.duration}
-                        date={obj.date}
-                        certificate={obj.certificate}
-                        redirect={obj.redirect}
-                    />
-                ))
-            }
+        {
+            certificates.map((obj, idx) => (
+                <HackathonCard
+                    key={idx}
+                    name={obj.name}
+                    organizer={obj.organizer}
+                    duration={obj.duration}
+                    date={obj.date}
+                    certificate={obj.certificate}
+                    redirect={obj.redirect}
+                />
+            ))
+        }
         </div>
     );
 };

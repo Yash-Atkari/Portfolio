@@ -3,7 +3,7 @@ import animationData from '../assets/Team.json';
 
 export default function Hackathon() {
     return (
-        <div>
+        <div className="hackathon-animation" aria-label="Hackathon animation">
             <Lottie animationData={animationData} loop={true} />
         </div>
     );
