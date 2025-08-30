@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      {!isMobile && <AnimatedBackground />}
+      { <AnimatedBackground />}
       <Router>
         <div className="app-container">
           <Suspense fallback={<div className="loading">Loading...</div>}>
