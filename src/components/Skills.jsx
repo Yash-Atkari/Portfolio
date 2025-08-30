@@ -1,3 +1,5 @@
+import "../styles/Skills.css";
+
 export default function Skills() {
     return (
         <div className="row g-4 text-light skills-section">

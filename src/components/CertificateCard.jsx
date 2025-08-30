@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaEye } from "react-icons/fa";
+import "../styles/CertificateCard.css";
 
 export default function CertificateCard({ title, image, description }) {
   const [hovered, setHovered] = useState(false);

@@ -1,4 +1,4 @@
-import Blog from './Blog.jsx';
+import BlogCard from './BlogCard.jsx';
 import aarogyamContent from "../blogContents/aarogyamContent";
 import aiContent from "../blogContents/aiContent";
 import hackathonContent from "../blogContents/hackathonContent";
@@ -61,7 +61,7 @@ export default function BlogList() {
     return (
         <div className="row mt-3" style={{ width: "99vw", minHeight: "99vh", margin: "0" }}>
             {blogs.map((blog, index) => (
-                <Blog
+                <BlogCard
                     key={index}
                     title={blog.title}
                     coverImage={blog.coverImage}

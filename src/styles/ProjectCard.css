@@ -1,0 +1,103 @@
+/* Project Card */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  height: 360px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Background image */
+.project-img {
+  object-fit: cover;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  will-change: transform;
+  z-index: 1;
+}
+.project-card.hovered .project-img {
+  transform: scale(1.08);
+  filter: brightness(0.75);
+}
+
+/* Overlay */
+.project-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Content area */
+.project-content {
+  position: relative;
+  z-index: 3;
+  max-height: 150px;               /* use max-height instead of height */
+  transition: max-height 0.35s ease-in-out;
+  overflow: hidden;
+}
+
+.project-content.expanded {
+  max-height: 500px;               /* pick a safe upper bound */
+}
+
+/* Meta info */
+.project-meta {
+  opacity: 0.56;
+  transition: opacity 0.2s ease;
+}
+.project-meta.visible {
+  opacity: 1;
+}
+
+/* Title */
+.project-title {
+  line-height: 1;
+  color: violet;
+}
+
+/* Description */
+.project-desc {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-height: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 1rem;
+  color: #ddd;
+}
+
+.project-desc.expanded {
+  max-height: 8rem;
+}
+
+/* For smaller screens (mobile) expand more */
+@media (max-width: 768px) {
+  .project-desc.expanded {
+    max-height: 14rem; /* expand more on mobile */
+  }
+}
+
+/* Buttons */
+.btn-code {
+  background-image: linear-gradient(to right, #007bff, #ff2c9c);
+  border: none;
+}
+
+/* Live Dot Animation */
+.live-dot {
+  font-size: 0.5rem;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.6;
+  }
+}

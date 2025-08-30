@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import Spinner from './Spinner';
 const Hero = lazy(() => import('./Hero'));
 import { Typewriter } from 'react-simple-typewriter';
+import "../styles/Home.css";
 
 export default function Home() {
     return (

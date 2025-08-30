@@ -1,0 +1,19 @@
+.skills-section {
+  margin-top: 75px;
+}
+
+.skill-card {
+  background-color: rgba(15, 15, 30, 0.7);
+}
+
+.skill-card h5 {
+  color: violet;
+}
+
+.skill-card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.skill-card ul li .bullet {
+  color: #17a2b8; /* Bootstrap info color */
+}

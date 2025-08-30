@@ -1,0 +1,27 @@
+/* Resume Container */
+.resume-container {
+  height: 99%;
+  width: 99vw;
+}
+
+/* Heading */
+.resume-title {
+  color: violet;
+}
+
+/* Section Wrapper */
+.resume-section {
+  width: 90vw;
+  max-width: 1000px;
+}
+
+/* Resume Preview Image */
+.resume-image {
+  border-radius: 10px;
+}
+
+/* Download Button */
+.resume-download-btn {
+  background-image: linear-gradient(to right, #007bff, #ff2c9c);
+  border: none;
+}

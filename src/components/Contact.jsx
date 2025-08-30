@@ -2,7 +2,7 @@ import ContactAnimation from "./ContactAnimation.jsx";
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import Notiflix from "notiflix";
-import "./Contact.css";
+import "../styles/Contact.css";
 
 export default function Contact() {
     const form = useRef();

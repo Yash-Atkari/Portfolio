@@ -1,3 +1,5 @@
+import "../styles/Codolio.css";
+
 export default function Codolio() {
     return (
         <div className="codolio-container py-5">

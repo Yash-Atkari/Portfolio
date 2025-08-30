@@ -1,4 +1,5 @@
 import { FaCalendarAlt } from "react-icons/fa";
+import "../styles/HackathonCard.css";
 
 export default function HackathonCard({ name, organizer, duration, date, certificate, redirect }) {
   return (

@@ -1,4 +1,5 @@
-import Project from './Project.jsx';
+import ProjectCard from './ProjectCard.jsx';
+import "../styles/ProjectList.css";
 
 export default function ProjectList() {
     const projects = [
@@ -47,7 +48,7 @@ export default function ProjectList() {
     return (
         <div className="row project-list">
             {projects.map((project) => (
-                <Project
+                <ProjectCard
                     key={project.id}
                     title={project.title}
                     src={project.src}

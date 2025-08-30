@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/Subnavbar.css";
 
 export default function Subnavbar() {
   const [activeLink, setActiveLink] = useState("me");

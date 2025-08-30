@@ -5,6 +5,7 @@ const Skills = lazy(() => import('./Skills'));
 const HackathonAnimation = lazy(() => import('./HackathonAnimation'));
 const HackathonList = lazy(() => import('./HackathonList'));
 const CertificateList = lazy(() => import('./CertificateList'));
+import "../styles/About.css";
 
 export default function About() {
   return (

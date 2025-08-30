@@ -1,0 +1,33 @@
+#me {
+  min-height: 99vh;
+  padding-top: 80px;
+}
+
+#skills {
+  min-height: 99vh;
+  padding-top: 170px;
+}
+
+#events {
+  min-height: 99vh;
+  padding-top: 150px;
+}
+
+#certifications {
+  min-height: 99vh;
+  padding-top: 150px;
+}
+
+.info-grid .label {
+  color: violet;
+}
+
+.info-grid .value {
+  color: white;
+}
+
+.profile-img {
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+}

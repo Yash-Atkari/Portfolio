@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 import { Modal } from "react-bootstrap";
+import "../styles/BlogCard.css";
 
 export default function Blog({ title, coverImage, date, excerpt, category }) {
     const [showModal, setShowModal] = useState(false);
