@@ -1,4 +1,5 @@
 import { lazy, Suspense } from 'react';
+import Spinner from './Spinner';
 const Hero = lazy(() => import('./Hero'));
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -31,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-4 text-center">
-                            <Suspense fallback={<div>Loading...</div>}>
+                            <Suspense fallback={<Spinner />}>
                                 <Hero />
                             </Suspense>
                         </div>

@@ -81,3 +81,68 @@
   font-weight: 500;
 }
 
+/* About Component CSS */
+
+#me {
+  min-height: 99vh;
+  padding-top: 80px;
+}
+
+#skills {
+  min-height: 99vh;
+  padding-top: 170px;
+}
+
+#events {
+  min-height: 99vh;
+  padding-top: 150px;
+}
+
+#certifications {
+  min-height: 99vh;
+  padding-top: 100px;
+}
+
+.info-grid .label {
+  color: violet;
+}
+
+.info-grid .value {
+  color: white;
+}
+
+.profile-img {
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+}
+
+/* Spinner CSS */
+
+/* Spinner styles */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  border-top: 4px solid #b26be8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
