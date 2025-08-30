@@ -146,3 +146,53 @@
   }
 }
 
+/*Subnavbar CSS*/
+
+.sub-navbar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: fixed;
+  background-color: rgba(15, 15, 30, 0.7);
+  margin-top: 15px;
+}
+
+.sub-navbar a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.sub-navbar a:hover {
+  background-image: linear-gradient(to right, #007bff, #ff2c9c);
+  color: white;
+}
+
+.sub-navbar a.active {
+  background-image: linear-gradient(to right, #007bff, #ff2c9c);
+  border: none;
+  color: white;
+}
+
+@media (max-width: 993px) {
+  .sub-navbar {
+    width: 80vw;
+    height: 7vh;
+    justify-content: space-around;
+    top: 10vh;
+    left: 10vw;
+  }
+
+  .sub-navbar span {
+    display: none;
+  }
+}
+
