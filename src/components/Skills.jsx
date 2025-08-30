@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div className="row g-4 text-light" style={{marginTop: "75px"}}>
+        <div className="row g-4 text-light skills-section">
                     {[
                     {
                         title: "Programming Languages",
@@ -44,20 +44,20 @@ export default function Skills() {
                     }
                     ].map((category, index) => (
                     <div key={index} className="col-md-6 col-lg-3">
-                        <div className="p-3 rounded-4 h-100 shadow-sm border border-secondary" data-tilt style={{ backgroundColor: "rgba(15, 15, 30, 0.7)" }}>
+                        <div className="p-3 rounded-4 h-100 shadow-sm border border-secondary skill-card">
                         <h5 className="mb-3 d-flex align-items-center gap-2" style={{color: "violet"}}>
                             <i className={`${category.icon}`}></i> {category.title}
                         </h5>
                         <ul className="list-unstyled">
                             {category.items.map((item, idx) => (
                             <li key={idx} className="mb-1">
-                                <span className="text-info me-2">•</span> {item}
+                                <span className="bullet me-2">•</span> {item}
                             </li>
                             ))}
                         </ul>
                         </div>
                     </div>
-                    ))}
+                ))}
         </div>
     );
 }
