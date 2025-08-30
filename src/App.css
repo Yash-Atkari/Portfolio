@@ -248,3 +248,33 @@
   margin: auto;
 }
 
+/* HackathonCard Component CSS */
+
+.hackathon-card {
+  background-color: rgba(15, 15, 30, 0.7);
+}
+
+.hackathon-card .card-body {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+}
+
+.hackathon-card .card-title {
+  color: violet;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #007bff, #b33df2, #ff2c9c);
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-outline-primary {
+  font-weight: 600;
+}
+
+.btn-outline-warning {
+  font-weight: 600;
+}
+
+
