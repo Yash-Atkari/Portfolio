@@ -14,11 +14,14 @@ const Codolio = lazy(() => import('./components/Codolio.jsx'));
 const BlogList = lazy(() => import('./components/BlogList.jsx'));
 
 import AnimatedBackground from './components/AnimatedBackground'; 
+import MobileBackground from './components/MobileBackground';
 
 function App() {
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <>
-      <AnimatedBackground />
+      {isMobile ? <MobileBackground /> : <AnimatedBackground />}
       <Router>
         <div className="app-container">
           <Suspense fallback={<div className="loading">Loading...</div>}>
