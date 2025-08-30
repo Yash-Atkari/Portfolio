@@ -187,9 +187,16 @@
 }
 
 .sub-navbar a.active {
-  background-image: linear-gradient(to right, #007bff, #ff2c9c);
+  background-image: linear-gradient(90deg, #007bff, #5f57ff, #b33df2, #ff2c9c);
+  background-size: 200% 100%;
+  background-position: right center;
   border: none;
   color: white;
+  filter: brightness(1.12) drop-shadow(0 2px 8px #b26be880);
+  transition: 
+    background-position 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+    filter 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (max-width: 993px) {
@@ -205,3 +212,4 @@
     display: none;
   }
 }
+
