@@ -4,20 +4,9 @@ import { Typewriter } from 'react-simple-typewriter';
 
 export default function Home() {
     return (
-        <><style>{`
-            .gradient-text {
-                background: linear-gradient(to right, #007bff, #5f57ff, #b33df2, #ff2c9c);
-                background-size: 100%;
-                background-clip: text;
-                -webkit-background-clip: text;
-                color: transparent;
-                -webkit-text-fill-color: transparent;
-                display: inline-block;
-            }
-        `}</style>
-        <div className="px-3 py-4 text-white" style={{minWidth: "99vw"}}>
+        <div className="home-section px-3 py-4">
             {/* Hero Section */}
-            <section className="py-5 mt-4" style={{ minHeight: "80vh" }}>
+            <section className="hero-section">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-12 col-md-6 col-lg-8 mb-4 mb-md-0">
@@ -51,53 +40,35 @@ export default function Home() {
             </section>
 
             {/* Social Links Section */}
-            <section className="py-5 text-center" style={{ minHeight: "20vh" }}>
+            <section className="social-section">
                 <h2 className="display-6 fw-bold">Find me on</h2>
                 <div className="col-12 text-center pe-3">
-                        {/* LinkedIn */}
-                        <a
-                            href="https://www.linkedin.com/in/yashatkari2005/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="fs-3 ms-3"
-                        >
-                            <i
-                            className="fa-brands fa-linkedin-in p-2"
-                            style={{ color: "#b26be8" }}
-                            title="LinkedIn"
-                            ></i>
-                        </a>
-
-                        {/* GitHub */}
-                        <a
-                            href="https://github.com/Yash-Atkari"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="fs-3 ms-3"
-                        >
-                            <i
-                            className="fa-brands fa-github p-2"
-                            style={{ color: "#b26be8" }}
-                            title="GitHub"
-                            ></i>
-                        </a>
-
-                        {/* Email */}
-                        <a
-                            href="mailto:youremail@example.com" // Replace with your actual email
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="fs-3 ms-3"
-                            >
-                            <i
-                                className="fa-solid fa-envelope p-2"
-                                style={{ color: "#b26be8" }}
-                                title="Email"
-                            ></i>
-                        </a>
+                    <a
+                        href="https://www.linkedin.com/in/yashatkari2005/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="social-icon"
+                    >
+                        <i className="fa-brands fa-linkedin-in" title="LinkedIn"></i>
+                    </a>
+                    <a
+                        href="https://github.com/Yash-Atkari"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="social-icon"
+                    >
+                        <i className="fa-brands fa-github" title="GitHub"></i>
+                    </a>
+                    <a
+                        href="mailto:yashatkari7@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="social-icon"
+                    >
+                        <i className="fa-solid fa-envelope" title="Email"></i>
+                    </a>
                 </div>
             </section>
         </div>
-        </>
     );
 }

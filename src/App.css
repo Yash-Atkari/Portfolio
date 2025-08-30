@@ -1,0 +1,31 @@
+.gradient-text {
+  background: linear-gradient(to right, #007bff, #5f57ff, #b33df2, #ff2c9c);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.home-section {
+  min-width: 99vw;
+  color: #fff;
+}
+.hero-section {
+  min-height: 80vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+}
+.social-section {
+  min-height: 20vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.social-icon {
+  font-size: 1.75rem;
+  margin-left: 1rem;
+  color: #b26be8;
+  padding: 0.5rem;
+}
