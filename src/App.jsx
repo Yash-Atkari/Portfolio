@@ -16,23 +16,28 @@ const BlogList = lazy(() => import('./components/BlogList.jsx'));
 import AnimatedBackground from './components/AnimatedBackground'; 
 
 function App() {
+  // Optionally, detect mobile and skip heavy backgrounds
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <>
-      <AnimatedBackground />
+      {!isMobile && <AnimatedBackground />}
       <Router>
-        <div style={{ position: 'relative', zIndex: 1 }}>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/projects" element={<ProjectList />} />
-            <Route path="/codolio" element={<Codolio />} />
-            <Route path="/blogs" element={<BlogList />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          <Footer />
+        <div className="app-container">
+          <Suspense fallback={<div className="loading">Loading...</div>}>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/projects" element={<ProjectList />} />
+              <Route path="/codolio" element={<Codolio />} />
+              <Route path="/blogs" element={<BlogList />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+          </Suspense>
         </div>
       </Router>
     </>
@@ -40,3 +45,4 @@ function App() {
 }
 
 export default App;
+// ...existing code...
