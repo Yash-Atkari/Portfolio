@@ -10,32 +10,6 @@ export default function Navbar() {
 
     return (
         <>
-        <style>{`
-        /* Custom Navbar Styling */
-        .navbar {
-            background: rgba(15, 15, 30, 0.75);
-            backdrop-filter: blur(10px);    
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .navbar-nav .nav-link {
-            padding: 10px 18px;
-            border-radius: 10px;
-            transition: all 0.3s ease;
-            font-weight: 500;
-        }
-
-        .navbar-nav .nav-link:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-            color: #b26be8 !important;
-        }
-
-        .navbar-nav .active {
-            background-color: rgba(255, 255, 255, 0.1);
-            color: #b26be8 !important;
-            font-weight: 700;
-        }
-        `}</style>
         <nav className="navbar navbar-expand-md px-4 py-2 sticky-top">
             <NavLink to="/" className="navbar-brand d-inline-block me-3" style={{ height: "50px", width: "45px" }}>
                 <img src="/portfolio_logo_bg.png" alt="Portfolio logo" className="h-100 w-100 img-fluid" />
