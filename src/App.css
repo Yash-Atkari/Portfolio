@@ -514,4 +514,37 @@
   margin-top: 20px;
 }
 
+/* Codolio Component CSS */
+
+.codolio-container {
+  min-height: 90vh;
+  width: 99vw;
+}
+
+.codolio-title {
+  color: violet;
+}
+
+.codolio-subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.codolio-iframe {
+  width: 90%;
+  height: 900px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Gradient button (reusable across Resume, Codolio, etc.) */
+.gradient-btn {
+  background-image: linear-gradient(to right, #007bff, #ff2c9c);
+  border: none;
+  color: white;
+}
+.gradient-btn:hover {
+  color: white;
+}
+
 

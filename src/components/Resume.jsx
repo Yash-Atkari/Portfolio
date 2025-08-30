@@ -22,7 +22,7 @@ export default function Resume() {
           rel="noopener noreferrer"
           aria-label="Download Resume PDF"
         >
-          <i className="fa-solid fa-cloud-arrow-down"></i>{" "}
+          <i class="fa-solid fa-circle-down"></i>{" "}
           <span className="fw-semibold">Download</span>
         </a>
       </div>
