@@ -16,12 +16,9 @@ const BlogList = lazy(() => import('./components/BlogList.jsx'));
 import AnimatedBackground from './components/AnimatedBackground'; 
 
 function App() {
-  // Optionally, detect mobile and skip heavy backgrounds
-  const isMobile = window.innerWidth <= 768;
-
   return (
     <>
-      { <AnimatedBackground />}
+      <AnimatedBackground />
       <Router>
         <div className="app-container">
           <Suspense fallback={<div className="loading">Loading...</div>}>
@@ -45,4 +42,3 @@ function App() {
 }
 
 export default App;
-// ...existing code...
