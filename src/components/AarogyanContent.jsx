@@ -1,5 +1,5 @@
 import React from 'react';
-import aarogyamContent from '../blogContents/aarogyamContent'; // your content file
+import aarogyamContent from '../blogs/aarogyamContent'; // your content file
 
 function AarogyamComponent() {
   return (

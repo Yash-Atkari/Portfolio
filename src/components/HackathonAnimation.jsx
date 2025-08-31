@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react';
-import animationData from '../assets/Team.json';
+import animationData from '../animations/Team.json';
 
 export default function Hackathon() {
     return (

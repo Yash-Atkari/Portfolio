@@ -2,7 +2,7 @@ import "../styles/Codolio.css";
 
 export default function Codolio() {
     return (
-        <div className="codolio-container py-5">
+        <div className="codolio-container py-4">
             <div className="text-center text-white mb-4">
                 <h2 className="fw-bold codolio-title">My Codolio Profile</h2>
                 <p className="text-secondary codolio-subtitle">

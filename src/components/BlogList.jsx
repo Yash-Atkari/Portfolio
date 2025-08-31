@@ -1,10 +1,10 @@
 import BlogCard from './BlogCard.jsx';
-import aarogyamContent from "../blogContents/aarogyamContent";
-import aiContent from "../blogContents/aiContent";
-import hackathonContent from "../blogContents/hackathonContent";
-import journeyContent from "../blogContents/journeyContent";
-import vibesyncContent from "../blogContents/vibesyncContent";
-import bridgepayContent from "../blogContents/bridgepayContent";
+import aarogyamContent from "../blogs/aarogyamContent";
+import aiContent from "../blogs/aiContent";
+import hackathonContent from "../blogs/hackathonContent";
+import journeyContent from "../blogs/journeyContent";
+import vibesyncContent from "../blogs/vibesyncContent";
+import bridgepayContent from "../blogs/bridgepayContent";
 
 export default function BlogList() {
     const blogs = [

@@ -43,3 +43,7 @@
 .contact-note {
   font-style: italic;
 }
+
+.contact-card p a {
+  text-decoration: none;
+}

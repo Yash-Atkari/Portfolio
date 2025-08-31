@@ -39,7 +39,7 @@ export default function Contact() {
             <div className="d-flex flex-column align-items-center text-white">
                 <ContactAnimation />
                 <h2 className="fw-bold contact-title">Get In Touch</h2>
-                <div className="container py-5">
+                <div className="container py-4">
                     <div className="row d-flex align-items-stretch">
 
                         {/* Contact Form */}
@@ -113,7 +113,6 @@ export default function Contact() {
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

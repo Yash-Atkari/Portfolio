@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
                         <Link to="/" className="d-inline-flex align-items-center text-white">
                             <img src="/portfolio_logo_bg.png" alt="Portfolio logo" className='img-fluid' style={{ height: "40px", width: "45px" }} />
-                            <span className="ms-2">Yash Atkari</span>
+                            <span className="ms-1">Yash Atkari</span>
                         </Link>
                     </div>
 

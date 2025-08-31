@@ -24,11 +24,11 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ## Screenshots
 
-<img width="1902" height="909" alt="image" src="https://github.com/user-attachments/assets/b388a985-38c2-4501-8baf-a270ad95f7fd" />
+<img width="1902" height="909" alt="image" src="https://github.com/user-attachments/animations/b388a985-38c2-4501-8baf-a270ad95f7fd" />
 
-<img width="1903" height="904" alt="image" src="https://github.com/user-attachments/assets/c1f291ee-6dde-46d6-9e36-7fafe4beafa5" />
+<img width="1903" height="904" alt="image" src="https://github.com/user-attachments/animations/c1f291ee-6dde-46d6-9e36-7fafe4beafa5" />
 
-<img width="1900" height="908" alt="image" src="https://github.com/user-attachments/assets/212de3b3-c7ee-40d4-bfce-0fc4cacd98c2" />
+<img width="1900" height="908" alt="image" src="https://github.com/user-attachments/animations/212de3b3-c7ee-40d4-bfce-0fc4cacd98c2" />
 
 ## About Me Section Includes
 
@@ -44,4 +44,3 @@ Have any opportunities or collaboration ideas?
 - 📧 Email: [yashatkari7@gmail.com](yashatkari7@gmail.com)
 - 📱 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/yashatkari2005/)
 - 🌐 Portfolio: [My Portfolio](https://yashatkari.netlify.app/)
-
