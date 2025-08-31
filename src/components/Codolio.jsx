@@ -5,7 +5,7 @@ export default function Codolio() {
         <div className="codolio-container py-4">
             <div className="text-center text-white mb-4">
                 <h2 className="fw-bold codolio-title">My Codolio Profile</h2>
-                <p className="text-secondary codolio-subtitle">
+                <p className="text-secondary px-1 codolio-subtitle">
                     Track my live journey, challenges, and achievements in coding!
                 </p>
             </div>

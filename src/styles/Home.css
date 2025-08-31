@@ -10,13 +10,18 @@
 .home-section {
   min-width: 99vw;
   color: #fff;
-  margin-top: 75px;
+  margin-top: 100px;
 }
+/* For mobile screens */
+@media (max-width: 768px) {
+  .home-section {
+    margin-top: 40px; /* adjust as needed */
+  }
+}
+
 .hero-section {
   min-height: 80vh;
-  padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-top: 1rem;
 }
 .social-section {
   min-height: 20vh;

@@ -45,7 +45,7 @@ export default function Blog({ title, coverImage, date, excerpt, category }) {
                 fullscreen
                 contentClassName="glassmorphic-modal"
             >
-                <Modal.Body className="px-4">
+                <Modal.Body className="px-1">
                     <div className="blog-modal-header">
                         <h2 className="blog-modal-title">{title}</h2>
                         <div className="d-flex justify-content-between align-items-center text-secondary small">
