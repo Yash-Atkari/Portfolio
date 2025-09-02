@@ -21,7 +21,6 @@ export default function Home() {
                                     'Full Stack Web Developer',
                                     'MERN Stack Enthusiast',
                                     'AI Explorer',
-                                    'Blockchain Enthusiast'
                                     ]}
                                     loop={true}
                                     cursor

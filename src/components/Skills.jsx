@@ -12,17 +12,17 @@ export default function Skills() {
                     {
                         title: "Libraries & Frameworks",
                         icon: "fa-solid fa-diagram-project text-warning",
-                        items: ["React.js", "Express.js", "Bootstrap", "Web3.js"]
+                        items: ["React.js", "Material UI", "Express.js", "Bootstrap", "Web3.js"]
                     },
                     {
                         title: "Tools & Platforms",
                         icon: "fa-solid fa-toolbox text-danger",
-                        items: ["Git", "GitHub", "VS Code", "Firebase", "Microsoft Azure", "IntelliJ IDEA", "Hoppscotch"]
+                        items: ["Git", "GitHub", "VS Code", "Firebase", "Hoppscotch"]
                     },
                     {
                         title: "Databases",
                         icon: "fa-solid fa-database text-secondary",
-                        items: ["MongoDB", "MySQL", "PostgreSQL"]
+                        items: ["MongoDB", "MySQL"]
                     },
                     {
                         title: "CS Fundamentals",
@@ -32,7 +32,7 @@ export default function Skills() {
                     {
                         title: "Blockchain",
                         icon: "fa-brands fa-ethereum text-info",
-                        items: ["Solidity", "Ethereum", "Smart Contracts", "MetaMask", "Remix IDE"]
+                        items: ["Solidity", "Ethereum", "Smart Contracts", "MetaMask"]
                     },
                     {
                         title: "AI/ML",

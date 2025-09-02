@@ -9,7 +9,7 @@ export default function Resume() {
         <section className="resume-section">
           <div className="d-flex align-items-center justify-content-center">
             <img
-              src="/Resume.jpg"
+              src="/yash_atkari_resume.jpg"
               title="PDF Viewer"
               alt="Yash Atkari Resume Preview"
               className="img-fluid resume-image"

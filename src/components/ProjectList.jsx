@@ -6,27 +6,27 @@ export default function ProjectList() {
         {
             id: "aarogyam",
             title: "Aarogyam",
-            src: "/aarogyam_image.webp",
+            src: "/aarogyam_project_banner.webp",
             description: "A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.",
             codeUrl: "https://github.com/Yash-Atkari/Aarogyam",
-            projectUrl: "https://aarogyam-hypg.onrender.com/",
+            projectUrl: "https://aarogyam-v6ig.onrender.com/",
             category: "Healthcare",
             date: "2025"
         },
         {
             id: "wanderlust",
             title: "Wanderlust",
-            src: "/wanderlust_image.webp",
+            src: "/wanderlust_project_banner.png",
             description: "A full-stack Airbnb clone that allows users to explore and book stays across various destinations. Features include property listing, booking management, authentication, and responsive UI. The application is built using Node.js, Express.js, MongoDB, and EJS for server-side rendering. It also exposes RESTful APIs for various operations, ensuring a scalable and modular architecture.",
             codeUrl: "https://github.com/Yash-Atkari/Wanderlust",
-            projectUrl: "https://airbnb-clone-1-2et5.onrender.com",
+            projectUrl: "https://wanderlust-cl02.onrender.com/listings",
             category: "Travel",
             date: "2024"
         },
         {
             id: "vibesync",
             title: "VibeSync",
-            src: "/vibesync_image.webp",
+            src: "/vibesync_project_banner.webp",
             description: "A compassionate mental health chatbot designed to detect emotions and provide gentle, thoughtful responses. Powered by OpenAI, it creates a safe, calming space where users can express themselves freely and feel truly heard. With a focus on emotional awareness and simplicity, VibeSync blends powerful AI with a human-centered design to support mental well-being.",
             codeUrl: "https://github.com/Yash-Atkari/VibeSync",
             projectUrl: "https://vibesync-ao2c.onrender.com/chatbot",
@@ -36,10 +36,10 @@ export default function ProjectList() {
         {
             id: "portfolio",
             title: "Portfolio",
-            src: "/portfolio_image.webp",
+            src: "/portfolio_project_banner.png",
             description: "A personal developer portfolio showcasing projects, skills, and experience in a visually engaging layout. Built with React and styled using Bootstrap and custom CSS, it serves as a professional online presence.",
             codeUrl: "https://github.com/Yash-Atkari/Yash-Atkari-Portfolio.git",
-            projectUrl: "https://yash-atkari-portfolio-3.onrender.com",
+            projectUrl: "https://yashatkari.netlify.app/",
             category: "Portfolio",
             date: "2025"
         }

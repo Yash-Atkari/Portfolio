@@ -93,6 +93,9 @@
   z-index: 1050;
 }
 .certificate-modal .modal-content {
-  max-width: 90%;
-  max-height: 90%;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

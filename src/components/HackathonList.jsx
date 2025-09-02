@@ -7,7 +7,7 @@ export default function HackathonList() {
             organizer: "Fluxus - IIT Indore",
             duration: "",
             date: "15 March 2025",
-            certificate: "/Healthcare_Hackathon_Certificate.png",
+            certificate: "/healthcare_hackathon_certificate.png",
             redirect: "https://www.linkedin.com/feed/update/urn:li:activity:7312830126600175616/"
         },
         {
@@ -19,11 +19,11 @@ export default function HackathonList() {
             redirect: ""
         },
         {
-            name: "Ecothon 4.O Hackathon",
+            name: "Ecothon 4.0 Hackathon",
             organizer: "Sipna College of Engineering and Technology, Amravati",
             duration: "",
             date: "10 March 2025",
-            certificate: "/Ecothon_4.O_Certificate.jpg",
+            certificate: "/ecothon_4.0_certificate.jpg",
             redirect: ""
         },
         {
@@ -31,7 +31,7 @@ export default function HackathonList() {
             organizer: "Government College of Engineering (GCOE), Nagpur",
             duration: "8hrs",
             date: "21 Feb 2025",
-            certificate: "/HackOn_Hackathon_Certificate.png",
+            certificate: "/hackon_hackathon_certificate.png",
             redirect: ""
         }
     ];

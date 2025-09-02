@@ -25,10 +25,10 @@ export default function About() {
                   Hello, I’m Yash Atkari from Mandhal, Maharashtra. I’m currently pursuing a Bachelor’s degree in Information Technology at G H Raisoni College of Engineering, Nagpur.
                 </p>
                 <p className="mb-3 text-light">
-                  I have completed comprehensive training in Data Structures and Algorithms using Java, solving over 300 problems to strengthen my foundation. Alongside this, I have hands-on experience with the MERN stack—MongoDB, Express.js, React, and Node.js—for full-stack web development. My skills also extend to Firebase services and Bootstrap for UI design. I am proficient in implementing authentication strategies using Passport.js and managing session and database operations with MongoDB, MySQL, and PostgreSQL. Additionally, I have explored Web3 and blockchain technologies like Solidity and smart contracts.
+                  I have completed comprehensive training in Data Structures and Algorithms using Java, solving over 350 problems to strengthen my foundation. Alongside this, I have hands-on experience with the MERN stack - MongoDB, Express.js, React, and Node.js - for full-stack web development. My skills also extend to Firebase services and Bootstrap for UI design. I am proficient in implementing authentication strategies using Passport.js and managing session and database operations with MongoDB and MySQL. Additionally, I have explored Web3 and blockchain technologies like Solidity and smart contracts.
                 </p>
                 <p className="mb-3 text-light">
-                  I’m passionate about building innovative and scalable web applications that solve real-world problems. Rather than overwhelming myself with information, I focus on deeply understanding small details to craft thoughtful and creative solutions. Outside of tech, I find joy and balance in spending time with nature—it reminds me of the value of patience, loyalty, and curiosity.
+                  I’m passionate about building innovative and scalable web applications that solve real-world problems. Rather than overwhelming myself with information, I focus on deeply understanding small details to craft thoughtful and creative solutions. Outside of tech, I find joy and balance in spending time with nature - it reminds me of the value of patience, loyalty, and curiosity.
                 </p>
                 <div className="info-grid row">
                   <div className="info-item col-md-6 mb-4">
@@ -52,7 +52,7 @@ export default function About() {
 
               <div className="col-12 col-md-6 col-lg-4 text-center">
                 <img
-                  src="/yash_1.webp"
+                  src="/yash_profile_photo.webp"
                   loading="lazy"
                   alt="Yash Profile"
                   className="img-fluid rounded-circle shadow bg-secondary bg-opacity-10 profile-img"

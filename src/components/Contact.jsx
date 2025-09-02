@@ -29,9 +29,12 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-            .sendForm("service_21tx0hq", "template_r12a6y5", form.current, "ld6rRmoTC4T4bQKpa")
+            .sendForm("service_cho7rjq", "template_r12a6y5", form.current, "ld6rRmoTC4T4bQKpa")
             .then(() => Notiflix.Notify.success('Your message has been sent successfully.'))
-            .catch(() => Notiflix.Notify.failure('Failed to send your message. Please try again.'));
+            .catch((err) => {
+                console.error('EmailJS Error:', err);
+                Notiflix.Notify.failure('Failed to send your message. Please try again.');
+            });
     };
 
     return (
