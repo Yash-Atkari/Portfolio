@@ -121,7 +121,7 @@ export default function Journey() {
     <div className="journey-page px-3 py-4 text-white">
       <div className="container">
         <header className="journey-header text-center mb-5">
-          <h1 className="journey-title display-5 fw-bold">Journey</h1>
+          <h2 className="journey-title fw-bold">Journey</h2>
           <p className="text-secondary px-1 codolio-subtitle">
             Track my journey across DSA, Web Development, hackathons, projects, open source,
             AI, internships, and more — step by step.
