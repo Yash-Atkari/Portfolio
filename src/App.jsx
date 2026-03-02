@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const Navbar = lazy(() => import('./components/Navbar.jsx'));
 const Home = lazy(() => import('./components/Home.jsx'));
 const About = lazy(() => import('./components/About.jsx'));
+const Journey = lazy(() => import('./components/Journey.jsx'));
 const Resume = lazy(() => import('./components/Resume.jsx'));
 const ProjectList = lazy(() => import('./components/ProjectList.jsx'));
 const Contact = lazy(() => import('./components/Contact.jsx'));
@@ -28,6 +29,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/journey" element={<Journey />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/projects" element={<ProjectList />} />
               <Route path="/codolio" element={<Codolio />} />

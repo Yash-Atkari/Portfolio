@@ -30,6 +30,7 @@ export default function Navbar() {
                 <div className="navbar-nav ms-auto gap-md-3 text-center">
                     <NavLink to="/" className={navLinkClass}>Home</NavLink>
                     <NavLink to="/about" className={navLinkClass}>About</NavLink>
+                    <NavLink to="/journey" className={navLinkClass}>Journey</NavLink>
                     <NavLink to="/resume" className={navLinkClass}>Resume</NavLink>
                     <NavLink to="/projects" className={navLinkClass}>Projects</NavLink>
                     <NavLink to="/codolio" className={navLinkClass}>Codolio</NavLink>
