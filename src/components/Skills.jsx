@@ -5,45 +5,58 @@ export default function Skills() {
         <div className="row g-4 text-light skills-section">
                     {[
                     {
-                        title: "Programming Languages",
+                        title: "Core Programming",
                         icon: "fa-solid fa-code text-primary",
-                        items: ["Java", "JavaScript", "Node.js", "C", "Python", "HTML", "CSS"]
+                        items: [
+                            "Java, JavaScript",
+                            "Python for AI/ML",
+                        ]
                     },
                     {
-                        title: "Libraries & Frameworks",
-                        icon: "fa-solid fa-diagram-project text-warning",
-                        items: ["React.js", "Material UI", "Express.js", "Bootstrap", "Web3.js"]
-                    },
-                    {
-                        title: "Tools & Platforms",
-                        icon: "fa-solid fa-toolbox text-danger",
-                        items: ["Git", "GitHub", "VS Code", "Firebase", "Hoppscotch"]
-                    },
-                    {
-                        title: "Databases",
-                        icon: "fa-solid fa-database text-secondary",
-                        items: ["MongoDB", "MySQL"]
-                    },
-                    {
-                        title: "CS Fundamentals",
-                        icon: "fa-solid fa-gears text-success",
-                        items: ["Data Structures & Algorithms", "OOPs", "Operating Systems", "DBMS", "Computer Networking"]
-                    },
-                    {
-                        title: "Blockchain",
-                        icon: "fa-brands fa-ethereum text-info",
-                        items: ["Solidity", "Ethereum", "Smart Contracts", "MetaMask"]
-                    },
-                    {
-                        title: "AI/ML",
-                        icon: "fa-solid fa-robot text-info-emphasis",
-                        items: ["Azure AI", "Scikit-learn", "OpenAI API", "Hugging Face", "LangChain"]
-                    },
-                    {
-                        title: "Web Development",
+                        title: "Web & Full-Stack",
                         icon: "fa-solid fa-globe text-light-emphasis",
-                        items: ["MERN Stack", "RESTful APIs", "Responsive Design"]
-                    }
+                        items: [
+                            "Frontend: React.js, Material UI, Bootstrap CSS",
+                            "Backend: Node.js, Express.js, RESTful APIs",
+                        ]
+                    },
+                    {
+                        title: "Architectural Fundamentals",
+                        icon: "fa-solid fa-sitemap text-warning",
+                        items: [
+                            "System Design: HLD & LLD",
+                            "CS Core: DSA, OS, DBMS, CN",
+                            "OOPs: Design Patterns & SOLID Principles"
+                        ]
+                    },
+                    {
+                        title: "Data Mastery",
+                        icon: "fa-solid fa-database text-secondary",
+                        items: [
+                            "Relational: MySQL, PostgreSQL",
+                            "NoSQL: MongoDB",
+                        ]
+                    },
+                    {
+                        title: "AI & Agentic Systems",
+                        icon: "fa-solid fa-robot text-info-emphasis",
+                        items: [
+                            "Agentic Frameworks: LangChain, CrewAI, LangGraph",
+                            "GenAI Patterns: RAG, Multi-Agent Orchestration",
+                            "Models: Gemini API, IBM Watsonx, Hugging Face",
+                            "Vector DBs: ChromaDB, Pinecone"
+                        ]
+                    },
+                    {
+                        title: "Cloud & DevOps",
+                        icon: "fa-solid fa-cloud-arrow-up text-danger",
+                        items: [
+                            "Azure: AI Services, Azure Functions",
+                            "Google Cloud: Cloud Skills Boost",
+                            "Tools: Git/GitHub",
+                            "Platforms: Firebase"
+                        ]
+                    },
                     ].map((category, index) => (
                     <div key={index} className="col-md-6 col-lg-3">
                         <div className="p-3 rounded-4 h-100 shadow-sm border border-secondary skill-card">

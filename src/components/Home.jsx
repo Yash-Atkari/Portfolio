@@ -12,15 +12,15 @@ export default function Home() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-12 col-md-6 col-lg-8 mb-4 mb-md-0">
-                            <h1 className="fw-bold mb-2">Hi there,</h1>
-                            <h1 className="gradient-text display-5 fw-bold mb-3">I'm Yash Atkari</h1>
+                            <h1 className="fw-bold mb-2">Hi, I'm</h1>
+                            <h1 className="gradient-text display-5 fw-bold mb-3">Yash Atkari</h1>
                             <p className="fs-4 lead text-secondary">
                                 <Typewriter
                                     words={[
-                                    'Aspiring Software Engineer',
-                                    'Full Stack Web Developer',
-                                    'MERN Stack Enthusiast',
-                                    'AI Explorer',
+                                        'Aspiring Software Engineer',
+                                        'Full‑Stack MERN Developer',
+                                        'AIML Enthusiast',
+                                        'Exploring Agentic AI, GenAI & LLMs',
                                     ]}
                                     loop={true}
                                     cursor

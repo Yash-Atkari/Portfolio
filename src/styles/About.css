@@ -18,16 +18,35 @@
   padding-top: 150px;
 }
 
+.section-me h2 {
+  font-size: 2.25rem; /* similar visual weight to Journey title */
+  color: violet;      /* match .journey-title color */
+}
+
 .info-grid .label {
-  color: violet;
+  color: #ffffff;
 }
 
 .info-grid .value {
-  color: white;
+  color: #d0d0ff; /* match journey card description text */
+}
+
+.info-grid .info-item {
+  background-color: rgba(15, 15, 30, 0.85);
+  border-radius: 16px;              /* circular-style corners */
+  border: 1px solid rgba(178, 107, 232, 0.4); /* same family as journey timeline/card */
+  padding: 0.6rem 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  margin-bottom: 0.2rem;
+  max-width: 300px;                 /* slightly narrower blocks */
+  width: 100%;
+  margin-right: 1.4rem;
 }
 
 .profile-img {
-  height: 450px;
-  width: 450px;
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 15%; /* crop slightly from below to reduce hands */
 }

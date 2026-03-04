@@ -20,15 +20,28 @@ export default function About() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-md-6 col-lg-8">
-                <h2 className="display-6 fw-bold mb-4 text-violet">Who I'm</h2>
+                <h2 className="display-6 fw-bold mb-4 text-violet">Introduction</h2>
                 <p className="mb-3 text-light">
-                  Hello, I’m Yash Atkari from Mandhal, Maharashtra. I’m currently pursuing a Bachelor’s degree in Information Technology at G H Raisoni College of Engineering, Nagpur.
+                  Greeting of the Day,<br />
+                  <br />
+                  My name is <span className="fw-semibold">Yash Vikas Atkari</span>. My name signifies
+                  "Success," and I strive to live up to that by delivering quality results in my work.
                 </p>
                 <p className="mb-3 text-light">
-                  I have completed comprehensive training in Data Structures and Algorithms using Java, solving over 350 problems to strengthen my foundation. Alongside this, I have hands-on experience with the MERN stack - MongoDB, Express.js, React, and Node.js - for full-stack web development. My skills also extend to Firebase services and Bootstrap for UI design. I am proficient in implementing authentication strategies using Passport.js and managing session and database operations with MongoDB and MySQL. Additionally, I have explored Web3 and blockchain technologies like Solidity and smart contracts.
+                  I am currently a 6th-semester IT aspirant at G.H. Raisoni College of Engineering, Nagpur.
                 </p>
                 <p className="mb-3 text-light">
-                  I’m passionate about building innovative and scalable web applications that solve real-world problems. Rather than overwhelming myself with information, I focus on deeply understanding small details to craft thoughtful and creative solutions. Outside of tech, I find joy and balance in spending time with nature - it reminds me of the value of patience, loyalty, and curiosity.
+                  I have built a strong foundation in Data Structures and Algorithms (DSA), the MERN stack, and I am highly
+                  passionate about AI.
+                </p>
+                <p className="mb-3 text-light">
+                  I haven't just learned these skills; I have tested them in high-pressure environments. I have participated in
+                  several national-level hackathons, including Fluxus at IIT Indore, Code of Phoenix at IIIT Naya Raipur,
+                  Ecothon 2.0, and HackOn by GDSC.
+                </p>
+                <p className="mb-3 text-light">
+                  My objective is to leverage my full-stack development skills and AI knowledge to build scalable solutions that
+                  solve real-world problems in a growth-oriented organization.
                 </p>
                 <div className="info-grid row">
                   <div className="info-item col-md-6 mb-4">
@@ -40,7 +53,7 @@ export default function About() {
                     <span className="value">yashatkari7@gmail.com</span>
                   </div>
                   <div className="info-item col-md-6 mb-4">
-                    <span className="label fs-5 fw-bold text-violet">Study</span><br />
+                    <span className="label fs-5 fw-bold text-violet">College</span><br />
                     <span className="value">G H Raisoni College of Engineering, Nagpur</span>
                   </div>
                   <div className="info-item col-md-6 mb-4">
