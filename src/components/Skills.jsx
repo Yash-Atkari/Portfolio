@@ -16,45 +16,44 @@ export default function Skills() {
                         title: "Web & Full-Stack",
                         icon: "fa-solid fa-globe text-light-emphasis",
                         items: [
-                            "Frontend: React.js, Material UI, Bootstrap CSS",
-                            "Backend: Node.js, Express.js, RESTful APIs",
-                        ]
-                    },
-                    {
-                        title: "Architectural Fundamentals",
-                        icon: "fa-solid fa-sitemap text-warning",
-                        items: [
-                            "System Design: HLD & LLD",
-                            "CS Core: DSA, OS, DBMS, CN",
-                            "OOPs: Design Patterns & SOLID Principles"
+                            "React.js, Material UI, Bootstrap CSS",
+                            "Node.js, Express.js, RESTful APIs",
                         ]
                     },
                     {
                         title: "Data Mastery",
                         icon: "fa-solid fa-database text-secondary",
                         items: [
-                            "Relational: MySQL, PostgreSQL",
-                            "NoSQL: MongoDB",
+                            "MySQL, PostgreSQL",
+                            "MongoDB",
+                        ]
+                    },
+                    {
+                        title: "Architectural Fundamentals",
+                        icon: "fa-solid fa-sitemap text-warning",
+                        items: [
+                            "DSA, OS, DBMS, CN, OOPs",
+                            "LLD - Design Patterns & SOLID Principles",
                         ]
                     },
                     {
                         title: "AI & Agentic Systems",
                         icon: "fa-solid fa-robot text-info-emphasis",
                         items: [
-                            "Agentic Frameworks: LangChain, CrewAI, LangGraph",
-                            "GenAI Patterns: RAG, Multi-Agent Orchestration",
-                            "Models: Gemini API, IBM Watsonx, Hugging Face",
-                            "Vector DBs: ChromaDB, Pinecone"
+                            "LangChain, CrewAI, LangGraph",
+                            "RAG, Multi-Agent Orchestration",
+                            "Gemini API, IBM Watson, Hugging Face",
+                            "ChromaDB, Pinecone"
                         ]
                     },
                     {
                         title: "Cloud & DevOps",
                         icon: "fa-solid fa-cloud-arrow-up text-danger",
                         items: [
-                            "Azure: AI Services, Azure Functions",
-                            "Google Cloud: Cloud Skills Boost",
-                            "Tools: Git/GitHub",
-                            "Platforms: Firebase"
+                            "Azure, AI Services",
+                            "Google Cloud Skills",
+                            "Git/GitHub",
+                            "Firebase"
                         ]
                     },
                     ].map((category, index) => (
