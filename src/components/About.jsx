@@ -4,13 +4,14 @@ const Subnavbar = lazy(() => import('./Subnavbar'));
 const Skills = lazy(() => import('./Skills'));
 const HackathonAnimation = lazy(() => import('./HackathonAnimation'));
 const HackathonList = lazy(() => import('./HackathonList'));
+const InternshipProgramList = lazy(() => import('./InternshipProgramList'));
 const CertificateList = lazy(() => import('./CertificateList'));
 import "../styles/About.css";
 
 export default function About() {
   return (
     <>
-      <div className="px-4 py-2 text-white">
+      <div className="about-page px-4 py-2 text-white">
         <Suspense fallback={<Spinner />}>
           <Subnavbar />
         </Suspense>
@@ -20,7 +21,7 @@ export default function About() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-md-6 col-lg-8">
-                <h2 className="display-6 fw-bold mb-4 text-violet">Introduction</h2>
+                <h2 className="h2 fw-bold mt-0 mb-4 text-violet">Introduction</h2>
                 <p className="mb-3 text-light">
                   Greeting of the Day,<br />
                   <br />
@@ -77,14 +78,19 @@ export default function About() {
 
         {/* Skills Section */}
         <section id="skills" className="container py-5 section-skills">
-          <Suspense fallback={<Spinner />}>
-            <Skills />
-          </Suspense>
+          <div>
+            <h2 className="h2 fw-bold mt-0 text-violet px-3">Skills</h2>
+            <Suspense fallback={<Spinner />}>
+              <Skills />
+            </Suspense>
+          </div>
         </section>
 
         {/* Hackathons & Events Section */}
         <section id="events" className="row align-items-center section-events">
+          
           <div className="col-12 col-md-8">
+            <h2 className="h2 fw-bold mt-0 mb-4 px-3">Hackathons & Events</h2>
             <Suspense fallback={<Spinner />}>
               <HackathonList />
             </Suspense>
@@ -96,9 +102,20 @@ export default function About() {
           </div>
         </section>
 
-        {/* Certification Section */}
+        {/* Internships & Programs Section */}
+        <section id="internships" className="row align-items-center section-internships">
+          <div>
+            <h2 className="h2 fw-bold mt-0 mb-4 text-violet px-3">Internships & Programs</h2>
+            <Suspense fallback={<Spinner />}>
+              <InternshipProgramList />
+            </Suspense>
+          </div>
+        </section>
+
+        {/* Courses Section */}
         <section id="certifications" className="row align-items-center section-certifications">
           <div>
+            <h2 className="h2 fw-bold mt-0 mb-4 text-violet px-3">Courses</h2>
             <Suspense fallback={<Spinner />}>
               <CertificateList />
             </Suspense>

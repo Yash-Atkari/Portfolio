@@ -35,21 +35,21 @@ export default function Subnavbar() {
         </a>
 
         <a
-          href="#certifications"
-          onClick={() => setActiveLink("certifications")}
-          className={`text-decoration-none py-1 px-2 rounded ${activeLink === "certifications" ? "active" : ""}`}
-          aria-label="Certifications"
+          href="#internships"
+          onClick={() => setActiveLink("internships")}
+          className={`text-decoration-none py-1 px-2 rounded ${activeLink === "internships" ? "active" : ""}`}
+          aria-label="Internships and Programs"
         >
-          <i className="fa-solid fa-medal"></i><span> Certifications</span>
+          <i className="fa-solid fa-briefcase"></i><span> Internships & Programs</span>
         </a>
 
         <a
-          href="#achievements"
-          onClick={() => setActiveLink("achievements")}
-          className={`text-decoration-none py-1 px-2 rounded ${activeLink === "achievements" ? "active" : ""}`}
-          aria-label="Achievements"
+          href="#certifications"
+          onClick={() => setActiveLink("certifications")}
+          className={`text-decoration-none py-1 px-2 rounded ${activeLink === "certifications" ? "active" : ""}`}
+          aria-label="Courses"
         >
-          <i className="fa-solid fa-trophy"></i><span> Achievements</span>
+          <i className="fa-solid fa-medal"></i><span> Courses</span>
         </a>
       </div>
     </div>
