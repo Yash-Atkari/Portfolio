@@ -4,10 +4,20 @@ import "../styles/ProjectList.css";
 export default function ProjectList() {
     const projects = [
         {
+            id: "planx",
+            title: "PlanX",
+            src: "/planx_project_banner.png",
+            description: "Autonomous project architect powered by multi‑agent orchestration, turning high‑level ideas into structured, end‑to‑end software plans. Allows students and developers to automate their daily repetitive tasks.",
+            codeUrl: "https://github.com/Yash-Atkari/planx-agent",
+            projectUrl: "https://planx-agent.netlify.app/",
+            category: "AI / Agentic",
+            date: "2026"
+        },
+        {
             id: "aarogyam",
             title: "Aarogyam",
             src: "/aarogyam_project_banner.webp",
-            description: "A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.",
+            description: "Secure healthcare data management system for institutions, built to protect sensitive student records with strict access control and scalable infrastructure.",
             codeUrl: "https://github.com/Yash-Atkari/Aarogyam",
             projectUrl: "https://aarogyam-v6ig.onrender.com/",
             category: "Healthcare",
@@ -17,27 +27,27 @@ export default function ProjectList() {
             id: "wanderlust",
             title: "Wanderlust",
             src: "/wanderlust_project_banner.png",
-            description: "A full-stack Airbnb clone that allows users to explore and book stays across various destinations. Features include property listing, booking management, authentication, and responsive UI. The application is built using Node.js, Express.js, MongoDB, and EJS for server-side rendering. It also exposes RESTful APIs for various operations, ensuring a scalable and modular architecture.",
+            description: "Full‑stack travel stay platform showcasing solid CRUD flows, RESTful API design, and polished UI/UX using Bootstrap.",
             codeUrl: "https://github.com/Yash-Atkari/Wanderlust",
             projectUrl: "https://wanderlust-cl02.onrender.com/listings",
             category: "Travel",
             date: "2024"
         },
-        {
-            id: "vibesync",
-            title: "VibeSync",
-            src: "/vibesync_project_banner.webp",
-            description: "A compassionate mental health chatbot designed to detect emotions and provide gentle, thoughtful responses. Powered by OpenAI, it creates a safe, calming space where users can express themselves freely and feel truly heard. With a focus on emotional awareness and simplicity, VibeSync blends powerful AI with a human-centered design to support mental well-being.",
-            codeUrl: "https://github.com/Yash-Atkari/VibeSync",
-            projectUrl: "https://vibesync-ao2c.onrender.com/chatbot",
-            category: "Wellness",
-            date: "2025"
-        },
+        // {
+        //     id: "vibesync",
+        //     title: "VibeSync",
+        //     src: "/vibesync_project_banner.webp",
+        //     description: "Simple mental‑health chatbot integrated with the Together API to provide conversational support in a calm, focused interface.",
+        //     codeUrl: "https://github.com/Yash-Atkari/VibeSync",
+        //     projectUrl: "https://vibesync-ao2c.onrender.com/chatbot",
+        //     category: "Wellness",
+        //     date: "2025"
+        // },
         {
             id: "portfolio",
             title: "Portfolio",
             src: "/portfolio_project_banner.png",
-            description: "A personal developer portfolio showcasing projects, skills, and experience in a visually engaging layout. Built with React and styled using Bootstrap and custom CSS, it serves as a professional online presence.",
+            description: "Developer portfolio built with React and Bootstrap, designed to highlight projects, skills, and experience in a clean, performance‑focused layout.",
             codeUrl: "https://github.com/Yash-Atkari/Yash-Atkari-Portfolio.git",
             projectUrl: "https://yashatkari.netlify.app/",
             category: "Portfolio",
@@ -46,19 +56,24 @@ export default function ProjectList() {
     ];
 
     return (
-        <div className="row project-list">
-            {projects.map((project) => (
-                <ProjectCard
-                    key={project.id}
-                    title={project.title}
-                    src={project.src}
-                    description={project.description}
-                    codeUrl={project.codeUrl}
-                    projectUrl={project.projectUrl}
-                    category={project.category}
-                    date={project.date}
-                />
-            ))}
+        <div className="container py-4 text-white">
+            <header className="mb-4">
+                <h2 className="h2 fw-bold mt-0">Projects</h2>
+            </header>
+            <div className="row project-list">
+                {projects.map((project) => (
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        src={project.src}
+                        description={project.description}
+                        codeUrl={project.codeUrl}
+                        projectUrl={project.projectUrl}
+                        category={project.category}
+                        date={project.date}
+                    />
+                ))}
+            </div>
         </div>
     );
 }

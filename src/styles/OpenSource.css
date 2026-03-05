@@ -1,0 +1,70 @@
+.open-source-section {
+  min-height: 99vh;
+}
+
+.open-source-title {
+  color: violet;
+  font-size: 2rem; /* h2-ish size matching Codolio heading intent */
+}
+
+.open-source-subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.open-source-stat-card {
+  background: rgba(15, 15, 30, 0.85);
+  color: #ffffff;
+  padding: 16px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.open-source-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.open-source-card-body {
+  background: rgba(15, 15, 30, 0.85);
+  border-radius: 16px;
+  padding: 16px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease,
+    background 0.2s ease;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.open-source-card-body:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+  border-color: rgba(178, 107, 232, 0.6);
+  background: radial-gradient(circle at top left, rgba(178, 107, 232, 0.16), rgba(15, 15, 30, 0.95));
+}
+
+.open-source-language {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(178, 107, 232, 0.12);
+  color: #b26be8;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.open-source-card-title {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .open-source-section {
+    padding-inline: 0.75rem;
+  }
+}
+

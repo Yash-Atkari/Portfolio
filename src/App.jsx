@@ -12,8 +12,9 @@ const Footer = lazy(() => import('./components/Footer.jsx'));
 const NotFound = lazy(() => import('./components/NotFound.jsx'));
 const Codolio = lazy(() => import('./components/Codolio.jsx'));
 const BlogList = lazy(() => import('./components/BlogList.jsx'));
+const OpenSource = lazy(() => import('./components/OpenSource.jsx'));
 
-import AnimatedBackground from './components/AnimatedBackground'; 
+import AnimatedBackground from './components/AnimatedBackground';
 import MobileBackground from './components/MobileBackground';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
               <Route path="/projects" element={<ProjectList />} />
               <Route path="/codolio" element={<Codolio />} />
               <Route path="/blogs" element={<BlogList />} />
+              <Route path="/open-source" element={<OpenSource />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
